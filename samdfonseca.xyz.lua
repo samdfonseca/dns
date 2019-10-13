@@ -13,3 +13,4 @@ redirect(concat("sam.composer", _a), "https://m3c170a6d753e5eb0-tp.appspot.com/"
 a("*lt", "35.226.96.125")
 -- localtunnel server subdomains
 a("*.lt", "35.226.96.125")
+txt(concat("_acme-challenge.lt", _a), "JJ6BIdNiv3O9jgYj6jnOs0jsXiOw8stljXfbvDGEEFw")
