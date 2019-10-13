@@ -1,4 +1,6 @@
 function mailgun(domain, key_subdomain, key_value)
+  mx(domain, "mxa.mailgun.org", 10)
+  mx(domain, "mxb.mailgun.org", 10)
   local mg_domain = concat("mg", domain)
   txt(mg_domain, "v=spf1 include:mailgun.org ~all")
   txt(concat(key_subdomain, mg_domain), key_value)
