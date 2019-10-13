@@ -14,3 +14,4 @@ a("lt", "35.226.96.125")
 -- localtunnel server subdomains
 a("*.lt", "35.226.96.125")
 txt(concat("_acme-challenge.lt", _a), "JJ6BIdNiv3O9jgYj6jnOs0jsXiOw8stljXfbvDGEEFw")
+txt(concat("_acme-challenge.lt", _a), "TYC0rOJcuTssnOriZQ9Pn67m3X86gkwas1_KfTKHaL8")
