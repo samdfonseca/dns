@@ -10,7 +10,7 @@ redirect(concat("dev.composer", _a), "https://p2dc37aab76344f7b-tp.appspot.com/"
 redirect(concat("sam.composer", _a), "https://m3c170a6d753e5eb0-tp.appspot.com/", 0, 300)
 
 -- lt.samdfonseca.xyz
-a("*lt", "35.226.96.125")
+a("lt", "35.226.96.125")
 -- localtunnel server subdomains
 a("*.lt", "35.226.96.125")
 txt(concat("_acme-challenge.lt", _a), "JJ6BIdNiv3O9jgYj6jnOs0jsXiOw8stljXfbvDGEEFw")
