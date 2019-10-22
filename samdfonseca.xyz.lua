@@ -7,7 +7,7 @@ mailgun(_a, "smtp._domainkey", "k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgK
 -- composer.samdfonseca.xyz
 redirect(concat("prd.composer", _a), "https://kce64b8531e64fa2e-tp.appspot.com/", 0, 300)
 redirect(concat("dev.composer", _a), "https://p2dc37aab76344f7b-tp.appspot.com/", 0, 300)
-redirect(concat("sam.composer", _a), "https://m3c170a6d753e5eb0-tp.appspot.com/", 0, 300)
+redirect(concat("sam.composer", _a), "https://a1a964803d6f123a1-tp.appspot.com/", 0, 300)
 
 -- lt.samdfonseca.xyz
 a("lt", "35.226.96.125")
