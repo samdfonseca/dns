@@ -11,3 +11,5 @@ redirect(concat("sam.composer", _a), "https://a1a964803d6f123a1-tp.appspot.com/"
 a("prd-v2.airflow", "35.193.165.39")
 a("sam-v4.airflow", "35.193.165.39")
 txt(concat("_acme-challenge.airflow", _a), "IZJnqwUGEvgRQDLz9ShAJIzSkrsSbw_3TOGmTn1o7Ns")
+txt(concat("_acme-challenge.airflow", _a), "xy4Qlq_GPr6AuGp3NYuh_3OOPqiiiIw6E7pEJ8nab2k")
+
